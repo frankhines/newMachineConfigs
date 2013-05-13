@@ -1,4 +1,6 @@
+call pathogen#infect()
 syntax on
+filetype plugin indent on
 
 set number
 set expandtab
@@ -23,12 +25,8 @@ set mouse=a
 
 colorscheme default
 
-call pathogen#infect()
-
 nnoremap <tab> %
 vnoremap <tab> %
-
-filetype plugin indent on
 
 let g:EasyMotion_leader_key='<Leader>'
 
